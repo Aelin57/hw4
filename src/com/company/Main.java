@@ -14,6 +14,7 @@ public class Main {
                    a.withDraw((int)a.getAmount());
                }catch (LimitExeption l){
                    l.printStackTrace();
+
                }
                break;
            }
